@@ -18,7 +18,7 @@ vous voulez utiliser le chemin en relatif, il faut forcé l'argument chemin_real
 Sub gen_pdf(nom_feuille As String, nom_pdf As String, Optional chemin As String = "", Optional chemin_relatif As Boolean = False)
 'déclaration des variables
 Dim feuille_actuelle As String
-```
+
 'génère le chemin
 If chemin = "" Then
 chemin_pdf = ThisWorkbook.Path & Application.PathSeparator & nom_pdf & ".pdf"
@@ -40,5 +40,4 @@ ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:=chemin_pdf _
 Sheets(feuille_actuelle).Select
 Application.ScreenUpdating = True
 End Sub
-
-	```
+```
