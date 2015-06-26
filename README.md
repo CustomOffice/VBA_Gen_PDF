@@ -1,24 +1,16 @@
 # VBA_Gen_PDF
 Macro VBA pour générer un pdf à partir d'un onglet
 
-## Infos
-TITRE : Génère un pdf à partir d'un onglet                                  		    
-DATE : 24.04.2015                              											
-
-DESCRIPTION :Création d'un PDF à partir d'un onglet excel										
-
-REGLES :																						
-- utilise le nom de l'onglet et génère un pdf de cet onglet en appelé le nom_pdf   				
-- le chemin par défaut pour l'enregistrement du pdf est l'emplacement du fichier excel			
-- si un chemin est spécifié, par défaut il est en absolu, c'est à dire, le chemin complet, si   
-vous voulez utiliser le chemin en relatif, il faut forcé l'argument chemin_realtif à true      
+## Instruction
+- Soit créer un module dans votre projet vba et y copier/coller le code ci-dessous
+- Soit télécharger le module (fichier *.bas) et l'inserer dans votre projet vba
 
 ##Code
 ```bash
 Sub gen_pdf(nom_feuille As String, nom_pdf As String, Optional chemin As String = "", Optional chemin_relatif As Boolean = False)
 '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-'!!!TITRE :         Génère un pdf à partir d'un onglet                                            	!!!
-'!!!DATE :         24.04.2015                              											!!!
+'!!!TITRE : Génère un pdf à partir d'un onglet                                            			!!!
+'!!!DATE : 24.04.2015                              													!!!
 '!!!                                                                          						!!!
 '!!!DESCRIPTION :Création d'un PDF à partir d'un onglet excel										!!!
 '!!!                                                                               					!!!
