@@ -1,6 +1,9 @@
 # VBA_Gen_PDF
 Macro VBA pour générer un pdf à partir d'un onglet
 
+##Lien vers le site
+http://customoffice.github.io/VBA_Gen_PDF/
+
 ## Instruction
 - Soit créer un module dans votre projet vba et y copier/coller le code ci-dessous
 - Soit télécharger le module (fichier *.bas) et l'inserer dans votre projet vba
